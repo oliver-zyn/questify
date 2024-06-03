@@ -1,5 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --background: #03010E;
+  --background-secondary: #19181F;
+  --primary: #0074E4;
+  --secondary: #9A999F;
+  --white: #FFFFFF;
+}
+
+body {
+  background: var(--background);
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+}
+
+.background-intro {
+  background: url('../assets/hades_cover_banner.png') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 484px -149px 123.8px rgba(0, 0, 0, 0.568) inset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar, .intro, .content, .explore, footer {
+  max-width: 1441px;
+  margin: auto;
+}
+
+/* navbar */
+
+.navbar {
+  background: var(--background);
+}
+
+.navbar i {
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  color: var(--secondary);
+}
+
+.nav-link.active {
+  color: var(--white);
+}
+
+.nav-link:hover {
+  color: var(--white);
+}
+
+.nav-icon:hover {
+  transition: opacity 200ms;
+  opacity: 0.8;
+}
+
+/* intro */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.intro-title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.intro-description {
+  max-width: 400px;
+}
+
+.intro-tag {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+/* content */
+
+.content-header h2 {
+  max-width: 185px;
+  font-weight: 600;
+}
+
+.content-header a {
+  color: var(--secondary) !important;
+  text-decoration: none;
+}
+
+.content-header a:hover {
+  color: var(--white) !important;
+  transition: color 200ms;
+}
+
+.content-header a:last-child {
+  color: var(--primary) !important;
+}
+
+.content-header a:last-child:hover {
+  text-decoration: underline;
+}
+
+.content-cards a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.content-card {
+  gap: 0.5rem;
+}
+
+.card-img {
+  overflow: hidden;
+}
+
+.content-card:hover img {
+  transform: scale(1.1);
+}
+
+.content-card img {
+  max-width: 207px;
+  transition: transform 100ms ease-in-out;
+}
+
+.card-tags span {
+  background: var(--primary);
+  font-size: 0.7rem;
+  padding: 0.1rem 0.8rem;
+  border-radius: 999px;
+}
+
+.content-card p {
+  font-size: 1.125rem;
+}
+
+.card-price span:first-child {
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  color: var(--secondary);
+}
+
+.card-price span:last-child {
+  font-size: 1.125rem;
+}
+
+/* news */
+
+.content-news {
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.news-card {
+  height: 22rem;
+  border-bottom: 2px solid var(--primary);
+  flex: 1;
+  text-decoration: none;
+}
+
+.news-card-bg1 {
+  background: url('../assets/fortnite-back.png') no-repeat;
+  background-size: cover;
+}
+
+.news-card-bg2 {
+  background: url('../assets/borderlands-back.png') no-repeat;
+  background-size: cover;
+}
+
+.news-card h3 {
+  font-size: 1.25rem;
+  color: var(--white);
+}
+
+.news-card p {
+  color: var(--secondary);
+  max-width: 450px;
+}
+
+.news-card:hover {
+  filter: brightness(1.2);
+  transition: filter 200ms;
+}
+
+/* explore */
+
+.explore-bg {
+  background: url('../assets/lights-back.png') no-repeat;
+  background-size: cover;
+  padding: 10rem 0;
+  margin-top: 5rem;
+}
+
+.explore { 
+  gap: 1rem;
+}
+
+.explore h2 {
+  max-width: 240px;
+  font-weight: 600;
+}
+
+.explore p {
+  color: var(--secondary);
+  max-width: 320px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 5rem;
+}
+
+.footer-header {
+  padding-bottom: 1.5rem;
+}
+
+.footer-social {
+  gap: 1rem;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.footer-social a:hover {
+  transition: opacity 200ms;
+  opacity: 0.8;
+}
+
+.footer-content {
+  border-bottom: 1px solid var(--secondary);
+  border-top: 1px solid var(--secondary);
+  padding: 2rem 0;
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.footer-content h3 {
+  font-size: 1rem;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin: 2rem 0;
+}
+
+/* classes úteis */
+
+.call-button {
+  background: var(--white);
+  padding: 0.7rem 1rem;
+}
+
+.call-button:hover {
+  transition: opacity 200ms;
+  opacity: 0.9;
+}
+
+.call-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.call-link:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.txt-white {
+  color: var(--white) !important;
 }
