@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Skul: The Hero Slayer",
+    "description": "Skul: The Hero Slayer é um rogue-like onde você joga como Skul, um esqueleto com habilidades especiais. Enfrente heróis poderosos e resgate o rei dos demônios.",
+    "coverImage": "https://cdn1.epicgames.com/offer/6feac7e685174dd698e90ca9536e1299/EGS_SkulTheHeroSlayer_SOUTHPAWGAMES_S2_1200x1600-bf1e59b18948166c17da528a7c3728a1",
+    "images": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202401/1801/9a34352be9ab83de0b57019f0310cba8ea89bf80dead8fe4.png",
+      "https://wallpapercave.com/wp/wp7423271.jpg",
+      "https://wallpapercave.com/wp/wp7423277.jpg",
+      "https://wallpapercave.com/wp/wp7423325.jpg"
+    ],
+    "tags": ["Ação", "Indie"],
+    "originalPrice": 199.90,
+    "discountPrice": 109.90,
+    "discount": 45
+  },
+  {
+    "id": 2,
+    "name": "Hades II",
+    "description": "Na pele do imortal Príncipe do Submundo, você usará os poderes e armas míticas do Olimpo para se libertar das garras do deus dos mortos.",
+    "coverImage": "https://cdn1.epicgames.com/spt-assets/ea0a24395cd641d7bbde3e5d78ad462c/hades-ii-acu3y.png",
+    "images": [
+      "https://c4.wallpaperflare.com/wallpaper/663/867/630/hades-game-supergiant-games-hd-wallpaper-preview.jpg",
+      "https://c4.wallpaperflare.com/wallpaper/64/461/153/video-games-hades-game-hd-wallpaper-preview.jpg",
+      "https://images.alphacoders.com/136/thumb-1920-1361791.jpeg",
+      "https://images2.alphacoders.com/136/thumb-1920-1361718.jpeg"
+    ],
+    "tags": ["Ação", "RPG"],
+    "originalPrice": 149.90,
+    "discountPrice": 89.90,
+    "discount": 40
+  },
+  {
+    "id": 3,
+    "name": "Celeste",
+    "description": "Ajude Madeline a superar seus demônios internos em sua jornada até o topo da Montanha Celeste neste jogo de plataforma superdesafiador.",
+    "coverImage": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/pt_BR/games/switch/c/celeste-switch/description-image",
+    "images": [
+      "https://images7.alphacoders.com/901/901149.png",
+      "https://wallpapercave.com/wp/wp4162242.png",
+      "https://images7.alphacoders.com/901/901147.png",
+      "https://i.redd.it/nhnn9whdahz71.png"
+    ],
+    "tags": ["Plataforma", "Indie"],
+    "originalPrice": 119.90,
+    "discountPrice": 59.90,
+    "discount": 50
+  },
+  {
+    "id": 4,
+    "name": "Hollow Knight",
+    "description": "Crie seu próprio caminho em Hollow Knight! Uma épica aventura de ação por um vasto reino arruinado de insetos e heróis.",
+    "coverImage": "https://products.eneba.games/resized-products/q7i-msiKJw8A73IeLKtYuwpr0ilw62NWSVQIFD0GbB0_350x200_2x-0.jpeg",
+    "images": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51  ",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.1920x1080.jpg?t=1695270428",
+      "https://mrwallpaper.com/images/hd/download-hollow-knight-wallpaper-eli7lerqvazp4sj3.jpg",
+      "https://i.ytimg.com/vi/JNTq3MVJH8M/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAtDgbrZ-wREqPg-7E9dWy_ima3xA"
+    ],
+    "tags": ["Ação", "Metroidvania"],
+    "originalPrice": 149.90,
+    "discountPrice": 79.90,
+    "discount": 47
+  },
+  {
+    "id": 5,
+    "name": "Black Myth: Wukong",
+    "description": "Em Black Myth: Wukong, aventure-se como o predestinado neste rpg de ação com raízes na mitologia chinesa.",
+    "coverImage": "https://cdn1.epicgames.com/spt-assets/ca9ef1bcf2f54043baac351366aec677/black-myth-wukong-jjjfw.png",
+    "images": [
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZbv6quyVXxvAMQPVvVW0j_bHr-rfN-v0zNVKky2Eu7UJfFs3f9gMsoWMfPpqv-tBNOdsMbPa05cISwD1RtwPMaOdTJAodrfkWQJZ19wrj0d857RyPa9eIG7Y1uCydWuoMkB6RI71HQY4YWqBDq7bMBORJMEMy5wlHbIb0d2J_KKJNxF_bpNSsKvClYJE/s1200/imagem_2024-08-16_101202956.png",
+      "https://img.hype.games/cdn/f2ba402d-0c90-4fa4-ac3e-5081782a3bf0BlackMythWukong4.jpg",
+      "https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2023/12/black_myth_1200x675_04082023110928.jpg",
+      "https://cdn1.epicgames.com/spt-assets/ca9ef1bcf2f54043baac351366aec677/black-myth-wukong-16j6d.jpg"
+    ],
+    "tags": ["Ação", "RPG"],
+    "originalPrice": 249.90,
+    "discountPrice": 199.90,
+    "discount": 20
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 5,
+    "title": "WUKONG",
+    "tag": "ACESSO ANTECIPADO",
+    "description": "Em Black Myth: Wukong, aventure-se como o predestinado neste rpg de ação com raízes na mitologia chinesa.",
+    "image": "./assets/wukong.jpg"
+  },
+  {
+    "id": 2,
+    "title": "HADES II",
+    "tag": "ACESSO ANTECIPADO",
+    "description": "Na pele do imortal Príncipe do Submundo, você usará os poderes e armas míticas do Olimpo para se libertar das garras do deus dos mortos.",
+    "image": "./assets/hades2.png"
+  }
+]

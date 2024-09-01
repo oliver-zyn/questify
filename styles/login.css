@@ -1,0 +1,82 @@
+section {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-size: 1.1rem;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--white);
+}
+
+.back-home i {
+  font-size: 2rem;
+  position: absolute;
+  color: var(--secondary);
+  transition: color 200ms;
+}
+
+.back-home i:hover {
+  color: var(--white);
+}
+
+.card {
+  background: var(--background-secondary);
+}
+
+input {
+  background: var(--background-secondary) !important;
+  border: 1px solid var(--secondary) !important;
+  color: var(--white) !important;
+  font-size: 1rem !important;
+}
+
+input::placeholder {
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.google-button {
+  background: var(--white);
+  width: 100%;
+  padding: 0.75rem;
+  color: var(--background);
+}
+
+.google-button:hover {
+  opacity: 0.8;
+  transition: opacity 200ms;
+}
+
+.message-login {
+  color: var(--secondary);
+  font-size: 0.9rem;
+}
+
+.message-login a {
+  color: var(--primary);
+}
+
+.error-input {
+  border-color: var(--danger) !important;
+}
+
+.error-message {
+  color: var(--danger);
+  font-size: 0.8rem;
+  display: block;
+  text-align: left;
+}

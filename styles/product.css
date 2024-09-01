@@ -1,0 +1,38 @@
+.images-container img {
+  border: 1px solid var(--secondary);
+}
+
+.product-images img {
+  width: 22%;
+  cursor: pointer;
+}
+
+.product-images img:hover {
+  transition: filter 200ms ease-in-out;
+  filter: brightness(1.3);
+}
+
+.product-discount span:first-child {
+  background: var(--primary);
+  font-size: 0.8rem;
+  padding: 0.1rem 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.product-tags span {
+  background: var(--primary);
+  font-size: 0.7rem;
+  padding: 0.1rem 0.8rem;
+  border-radius: 999px;
+}
+
+.product-discount span:last-child {
+  color: var(--secondary);
+  text-decoration: line-through;
+}
+
+.product-description {
+  color: var(--secondary);
+  max-width: 600px;
+  font-size: 0.9rem;
+}
